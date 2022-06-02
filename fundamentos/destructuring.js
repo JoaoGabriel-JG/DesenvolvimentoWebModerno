@@ -1,4 +1,5 @@
 // novo recurso do ES2015
+// Objetos
 
 const pessoa = {
     nome: 'Ana',
