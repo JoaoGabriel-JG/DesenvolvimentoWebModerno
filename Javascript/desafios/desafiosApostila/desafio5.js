@@ -5,3 +5,9 @@ um exercício simples para mostrar dinheiro sempre da forma correta. Desenvolva 
 que ela receba um valor como 0.30000000000000004 e retorne R$0,30 (observe a vírgula e o ponto). */
 
 
+function dinheiroMoneyPlata (valorDecimal) {
+    valorEmReais = `R$ ${valorDecimal.toFixed(2).toString().replace('.', ',')}`
+    console.log(valorEmReais)
+}
+
+dinheiroMoneyPlata(0.3 + 0.5)
