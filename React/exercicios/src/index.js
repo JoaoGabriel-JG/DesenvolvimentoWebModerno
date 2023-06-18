@@ -1,5 +1,10 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import BomDia from './components/BomDia'
+import Multi, { BoaNoite } from './components/Multiplos'
 
-ReactDOM.render(<BomDia nome='João'/>, document.getElementById('root'))
+ReactDOM.render(
+    <>
+        <Multi.BoaTarde nome='Isabella'/>
+        <BoaNoite nome='João'/>
+    </>, document.getElementById('root')
+)
